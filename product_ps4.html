@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: green;
+            margin: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .content {
+            text-align: center ;
+            padding-bottom: 50px;
+        }
+
+        h1 {
+            margin-top: 400px;
+        }
+
+        .moving-image-container {
+            position: absolute;
+            top: 10%;
+            left: 0;
+            transform: translateY(-10%);
+            animation: moveImage 5s linear infinite;
+        }
+
+        @keyframes moveImage {
+            0% {
+                left: 0;
+            }
+            50% {
+                left: 50%;
+            }
+            100% {
+                left: 0;
+            }
+        }
+
+        .moving-image {
+            width: 300px; /* Adjust the width as needed */
+            height: auto;
+        }
+    </style>
+    <title>PS4 Information - Award Market</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropbtn">Products</a>
+                    <!-- Add dropdown content if needed -->
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <div class="moving-image-container">
+            <img src="PS4 SLIM.jpg" alt="Moving Image" class="moving-image">
+        </div>
+        <br><div class="content">
+            <h1>PS4 1tb Slim Console</h1>
+            <p>Play the greatest games and PS4 exclusives, take your adventures online with PS Plus and stream or download TV shows and movies from Netflix, PlayStation Store or wherever you get your favourite entertainment. Find a great value bundle here at Sosogames!!
+
+            DUALSHOCK 4 wireless controller
+            Interact with intuitive games.
+            Mono headset
+            Hear incredible details and chat with friends.
+            HDMI cable
+            View the on-screen action in spectacular High Definition.
+            USB and power cables
+            Everything you need to charge, power and play.</p></div>
+        
+            <!-- Add your PS4 information text here -->
+        </div>
+    </div>
+</body>
+</html>

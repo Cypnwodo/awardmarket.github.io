@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PS3 - Gaming Console</title>
+    <style>
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .content img {
+            max-width: 50%;
+            margin-right: 20px;
+            background-color: transparent;
+        }
+
+        .product-image {
+            /* Define styles for the image container */
+            width: 50%; /* Adjust the width as needed */
+            overflow: hidden; /* Ensure the image doesn't overflow its container */
+        }
+
+        .product-image img {
+            width: 100%; /* Make the image fill its container */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body style="background-color: blue;">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0);" class="dropbtn">Products</a>
+                    <!-- Add dropdown content if needed -->
+                </li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content" style="background-color: blue;">
+            <div class="product-image">
+                <img src="Ps3.jpg" alt="PS3 Image">
+            </div>
+            <div>
+                <h1>Sony PlayStation 3</h1>
+                <p>The PS3 gaming console brings a revolutionary gaming experience to your living room.</p>
+                <P>Explore a vast library of games, enjoy high-definition graphics, and immerse yourself in the world of entertainment.</p>
+                <!-- Add more information about the PS3 -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
